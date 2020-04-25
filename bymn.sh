@@ -31,19 +31,19 @@
 export PATH=${PWD}/../fabric-samples/bin:${PWD}:$PATH
 export FABRIC_CFG_PATH=${PWD}
 export VERBOSE=false
-export ORDERER0_HOSTNAME="orderer-duplicate"
-export ORDERER1_HOSTNAME="arete"
-export ORG1_HOSTNAME="org1"
-export ORG2_HOSTNAME="org2"
+export ORDERER0_HOSTNAME="node-1"
+# export ORDERER1_HOSTNAME="arete"
+export ORG1_HOSTNAME="node-1"
+export ORG2_HOSTNAME="node-2"
 export SWARM_NETWORK="fabric"
 export DOCKER_STACK="fabric"
-export KAFKA0_HOSTNAME="orderer-duplicate"
-export KAFKA1_HOSTNAME="org1"
-export KAFKA2_HOSTNAME="org2"
-export KAFKA3_HOSTNAME="arete"
-export ZK0_HOSTNAME="orderer-duplicate"
-export ZK1_HOSTNAME="org1"
-export ZK2_HOSTNAME="org2"
+# export KAFKA0_HOSTNAME="orderer-duplicate"
+# export KAFKA1_HOSTNAME="org1"
+# export KAFKA2_HOSTNAME="org2"
+# export KAFKA3_HOSTNAME="arete"
+# export ZK0_HOSTNAME="orderer-duplicate"
+# export ZK1_HOSTNAME="org1"
+# export ZK2_HOSTNAME="org2"
 SYS_CHANNEL="bymn-sys-channel"
 
 # Print the usage message
